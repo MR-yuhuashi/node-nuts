@@ -26,7 +26,7 @@
     "routing-controllers": "^0.7.7",
     "stream": "^0.0.2",
     "typescript": "^3.6.3",
-    "yargs": "^12.0.5"
+    "yargs": "^15.0.2"
   },
   "devDependencies": {
     "@babel/preset-react": "^7.0.0",
