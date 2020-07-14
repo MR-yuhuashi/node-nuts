@@ -1,0 +1,19 @@
+@import 'mixins/mixins';
+
+// .el-button的样式
+@include b(button) {
+  display: inline-block;
+  line-height: 1;
+  white-space: nowrap;
+  cursor: pointer;
+
+  // .is-round的样式
+  @include when(round) {
+    border-radius: 20px;
+    padding: 12px 23px;
+  }
+   // .el-button--primary
+   @include m(primary) {
+    color: red;
+  }
+}

@@ -1,0 +1,12 @@
+/* BEM
+ -------------------------- */
+.el-button {
+  display: inline-block;
+  line-height: 1;
+  white-space: nowrap;
+  cursor: pointer; }
+  .el-button.is-round {
+    border-radius: 20px;
+    padding: 12px 23px; }
+  .el-button--primary {
+    color: red; }
